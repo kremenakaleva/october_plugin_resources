@@ -1,0 +1,20 @@
+plugin:
+    name: 'pensoft.resources::lang.plugin.name'
+    description: 'pensoft.resources::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-database
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Resources
+        url: pensoft/resources/data
+        icon: icon-database
+        sideMenu:
+            side-menu-item:
+                label: Library
+                url: pensoft/resources/data
+                icon: icon-file-archive-o
+            side-menu-item2:
+                label: Formats
+                url: pensoft/resources/formats
+                icon: icon-square-o

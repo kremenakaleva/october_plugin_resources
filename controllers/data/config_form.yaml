@@ -1,0 +1,10 @@
+name: Data
+form: $/pensoft/resources/models/data/fields.yaml
+modelClass: Pensoft\Resources\Models\Data
+defaultRedirect: pensoft/resources/data
+create:
+    redirect: 'pensoft/resources/data/update/:id'
+    redirectClose: pensoft/resources/data
+update:
+    redirect: pensoft/resources/data
+    redirectClose: pensoft/resources/data

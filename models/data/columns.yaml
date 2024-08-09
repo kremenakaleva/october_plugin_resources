@@ -1,0 +1,23 @@
+columns:
+    title:
+        label: title
+        type: text
+        searchable: true
+        sortable: true
+    date:
+        label: date
+        type: text
+        searchable: true
+        sortable: true
+    format:
+        label: format
+        searchable: true
+        sortable: true
+        select: title
+        relation: format
+    cover:
+        label: cover
+        type: partial
+        searchable: true
+        sortable: true
+        path: ~/plugins/pensoft/resources/partials/_cover.htm

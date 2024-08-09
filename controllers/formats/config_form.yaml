@@ -1,0 +1,10 @@
+name: Formats
+form: $/pensoft/resources/models/format/fields.yaml
+modelClass: Pensoft\Resources\Models\Format
+defaultRedirect: pensoft/resources/formats
+create:
+    redirect: 'pensoft/resources/formats/update/:id'
+    redirectClose: pensoft/resources/formats
+update:
+    redirect: pensoft/resources/formats
+    redirectClose: pensoft/resources/formats
