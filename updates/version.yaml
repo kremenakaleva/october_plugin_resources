@@ -8,3 +8,5 @@
     - builder_table_create_pensoft_resources_data.php
 1.0.4:
     - 'Composer'
+1.0.5:
+    - 'Component'
